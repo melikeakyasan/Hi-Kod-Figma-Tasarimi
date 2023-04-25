@@ -1,0 +1,147 @@
+.container{
+    display: grid;
+    justify-content: center;
+    
+}
+
+.header_container{
+    display: flex;
+    float: left;
+    height: 165px;
+}
+
+.header_box{
+    background-color:#E4A2E8;
+    width: 25%;
+    
+}
+
+.header_box2{
+    background-color:#E5B3FF;
+    width: 75%;
+
+}
+
+.navbar_list{
+    display:grid;
+    
+    
+
+}
+
+.link{
+    text-decoration: none;     /* linklerin alt çizgilerini kaldırmak için kullandım */
+    font-weight: 700;
+    font-size: 28px;
+    color:rgb(71, 13, 33);
+}
+
+.navbar_container{
+    background-color:#E8A2AB;
+    text-align: center;
+    color: rgb(71, 13, 33);
+    display: grid;
+    margin-top: 10px;
+    height: 150px;
+
+    }
+
+
+
+
+.article_container{
+    background-color: rgb(249, 228, 212);
+    text-align: center;
+    color: rgb(71, 13, 33);
+    display: grid;
+    margin-top: 10px;
+    font-size: 23px;
+    
+}
+
+
+
+.card-row{
+    background-color: #e18e99;   
+}
+
+.card{
+     background-color:#FFBBB3;
+     width: 130px;
+     height: 130px; 
+     display:inline-block;
+     margin: 10px;
+}
+
+.about_container{
+    text-align: center;
+    background-color:#E4A2E8;
+    color: rgb(71, 13, 33);
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about_p{
+    color: rgb(29, 31, 31);
+    font-weight: 500;
+    font-size:13px;
+    margin: 10px;
+}
+
+.services_container{
+    text-align: center;
+    background-color: rgb(249, 228, 212);
+    color: rgb(71, 13, 33);
+    display: grid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.contact_container{
+    text-align: center;
+    background-color: rgb(249, 228, 212);
+    color: rgb(71, 13, 33);
+    margin-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.contact_p{
+    color: rgb(71, 13, 33);
+    text-align: left;
+}
+
+.input_container{
+    margin-top:50px ;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+input{
+height:50px;
+width:250px;
+background-color: beige;
+display: block;;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: #FFBBB3;
+    
+}
+
+.footer{
+    background-color: #E8A2AB;
+    text-align: center;
+    color:white;
+    padding:50px ;
+    margin-top: 10px;
+}
+.footer-2nd-text{
+    color:rgb(71, 13, 33);
+}
